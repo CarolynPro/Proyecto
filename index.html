@@ -39,6 +39,15 @@
        </button>
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand text-success logo h1 aligh-self-center" href="index.html">Vive la Moda</a>
+               <!-- fecha -->
+            <script>
+                var f = new Date();
+                document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                </script>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="aligh-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-between" id="Opciones">
             <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                 <li class="nav-item">
@@ -358,5 +367,6 @@
      <script src="assets/js/jquery-1.11.0.min.js"></script>
      <script src="assets/js/templatemo.js"></script>
      <script src="assets/js/custom.js"></script>
+     <script src="assets/js/carrito.js"></script> 
 </body>
 </html>
